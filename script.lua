@@ -12,7 +12,7 @@ local G2L = {};
 
 -- ServerScriptService.UndetectedNebula
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["Enabled"] = false;
+G2L["1"]["Enabled"] = true;
 G2L["1"]["Name"] = [[UndetectedNebula]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
